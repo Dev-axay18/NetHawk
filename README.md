@@ -1,5 +1,3 @@
-Got it — here is **ONLY the section you provided**, but redesigned into a **god-level, modern, jaw-dropping Markdown layout**, with a banner placed at the top.
-
 ---
 
 <div align="center">
@@ -42,18 +40,70 @@ Got it — here is **ONLY the section you provided**, but redesigned into a **go
 
 ---
 
-## 🎯 Overview
 
-**NetHawk** is a cutting-edge security toolkit designed for network professionals, penetration testers, and security researchers. Combining the power of advanced packet sniffing, intelligent flow analysis, real-time anomaly detection, and enhanced traceroute capabilities, NetHawk provides unparalleled visibility into network traffic and potential security threats.
 
-### 🌟 Why NetHawk?
+# 🎯 **Overview**
 
-- **🔍 Deep Packet Inspection** - Capture and analyze network traffic with surgical precision
-- **🧠 Intelligent Analysis** - AI-powered anomaly detection identifies suspicious patterns
-- **🌐 Enhanced Traceroute** - Advanced path tracing with geolocation and latency metrics
-- **📊 Flow Analytics** - Comprehensive traffic flow analysis and visualization
-- **🛡️ Threat Intelligence** - Real-time threat detection using customizable blacklists
-- **📝 Detailed Reporting** - Automated JSON reports for every scan session
+> ### **NetHawk**
+>
+> **High-precision network intelligence for modern cybersecurity operations.**
+>
+> ▌ NetHawk delivers a unified toolkit for **packet inspection, anomaly detection, flow analytics**,
+> and **enhanced traceroute intelligence**, engineered for analysts who demand absolute clarity
+> in complex or hostile network environments.
+>
+> ▌ Designed for professionals. Optimized for performance. Built for real threat landscapes.
+
+<br>
+
+---
+
+# ⚡ **Why NetHawk?**
+
+```
+┌───────────────────────────────────────────────┐
+│   CORE CAPABILITIES — BUILT FOR REAL OPS      │
+└───────────────────────────────────────────────┘
+```
+
+### ▌ **01 : Deep Packet Inspection**
+
+> Precision-level packet capture with **layer-by-layer decoding**, protocol fingerprinting,
+> and hidden traffic exposure.
+
+---
+
+### ▌ **02 : AI-Powered Anomaly Detection**
+
+> ML-driven detection engine that spots **outliers, covert scans, beaconing, and malicious flow patterns**
+> in real time.
+
+---
+
+### ▌ **03 : Enhanced Traceroute Engine**
+
+> A modern traceroute with **hop intelligence**, latency signature mapping, and **geo-IP augmented paths**.
+
+---
+
+### ▌ **04 : Flow Analytics**
+
+> Real-time flow reviewing with **session behavior metrics**, bandwidth profiling,
+> and traffic distribution intelligence.
+
+---
+
+### ▌ **05 : Threat Intelligence Layer**
+
+> Integrated detection using **IOC matches**, blacklists, and **adaptive endpoint scoring**
+> for rapid threat classification.
+
+---
+
+### ▌ **06 : Automated Reporting**
+
+> Every operation outputs a **structured, SIEM-ready JSON report** for pipelines, auditing,
+> and forensic analysis.
 
 ---
 
