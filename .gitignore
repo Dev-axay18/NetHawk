@@ -1,0 +1,70 @@
+# NetHawk Security Toolkit - .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Reports and Logs
+reports/*.json
+reports/*.txt
+*.log
+*.pcap
+*.cap
+
+# Threat Intelligence (keep template, ignore custom lists)
+data/threat_blacklist.txt
+!data/threat_blacklist.txt.example
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# OS
+Thumbs.db
+.DS_Store
+*.bak
+
+# Sensitive Data
+*.key
+*.pem
+*.crt
+config.local.py
+secrets.py

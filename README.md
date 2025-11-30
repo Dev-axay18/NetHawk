@@ -1,0 +1,504 @@
+<div align="center">
+
+# 🦅 NetHawk Security Toolkit
+
+### *Next-Generation Packet & Path Intelligence Platform*
+
+[![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Linux-lightgrey.svg)](https://www.kali.org/)
+[![Scapy](https://img.shields.io/badge/powered%20by-Scapy-orange.svg)](https://scapy.net/)
+
+**Advanced network reconnaissance, packet analysis, and threat detection in a single powerful toolkit.**
+
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Screenshots](#-screenshots) • [Documentation](#-documentation)
+
+---
+
+</div>
+
+## 🎯 Overview
+
+**NetHawk** is a cutting-edge security toolkit designed for network professionals, penetration testers, and security researchers. Combining the power of advanced packet sniffing, intelligent flow analysis, real-time anomaly detection, and enhanced traceroute capabilities, NetHawk provides unparalleled visibility into network traffic and potential security threats.
+
+### 🌟 Why NetHawk?
+
+- **🔍 Deep Packet Inspection** - Capture and analyze network traffic with surgical precision
+- **🧠 Intelligent Analysis** - AI-powered anomaly detection identifies suspicious patterns
+- **🌐 Enhanced Traceroute** - Advanced path tracing with geolocation and latency metrics
+- **📊 Flow Analytics** - Comprehensive traffic flow analysis and visualization
+- **🛡️ Threat Intelligence** - Real-time threat detection using customizable blacklists
+- **📝 Detailed Reporting** - Automated JSON reports for every scan session
+
+---
+
+## ✨ Features
+
+### 🎯 Core Capabilities
+
+<table>
+<tr>
+<td width="50%">
+
+#### 📡 Packet Sniffing
+- Live packet capture on any interface
+- BPF filtering support
+- Protocol classification (TCP/UDP/ICMP/DNS)
+- TLS/SSL handshake detection
+- Scan pattern recognition (SYN, XMAS, NULL)
+
+</td>
+<td width="50%">
+
+#### 🔬 Flow Analysis
+- Top talkers identification
+- Port distribution analysis
+- Protocol statistics
+- TCP handshake tracking
+- Connection flow mapping
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 🚨 Anomaly Detection
+- Port scan detection
+- DNS tunneling identification
+- Stealth scan recognition
+- Unusual traffic patterns
+- Real-time alerting
+
+</td>
+<td width="50%">
+
+#### 🗺️ Advanced Traceroute
+- Multi-hop path tracing
+- Latency measurement
+- Reverse DNS lookup
+- GeoIP location mapping
+- Smart timeout handling
+
+</td>
+</tr>
+</table>
+
+### 🛡️ Security Features
+
+- **Threat Intelligence Integration** - Blacklist-based threat detection
+- **Real-time Monitoring** - Live packet analysis and alerting
+- **Comprehensive Logging** - Detailed JSON reports for forensics
+- **Customizable Filters** - Fine-tune capture with BPF expressions
+
+---
+
+## 🚀 Installation
+
+### Prerequisites
+
+```bash
+# Kali Linux / Debian / Ubuntu
+sudo apt update
+sudo apt install python3 python3-pip pipx
+
+# Install Scapy
+pip3 install scapy
+```
+
+### Quick Install
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/nethawk.git
+cd nethawk
+
+# Install using pipx (recommended)
+pipx install .
+
+# Or run the install script
+chmod +x install.sh
+./install.sh
+```
+
+### Manual Installation
+
+```bash
+# Install in development mode
+pip3 install -e .
+
+# Create system-wide command (requires sudo)
+sudo ln -s ~/.local/bin/nethawk /usr/local/bin/nethawk
+```
+
+### Verify Installation
+
+```bash
+nethawk --help
+```
+
+---
+
+## 📖 Usage
+
+### Basic Commands
+
+```bash
+# Display help
+nethawk --help
+
+# Packet sniffing (requires sudo)
+sudo nethawk --sniff wlan0 --timeout 30
+
+# Advanced traceroute
+sudo nethawk --trace google.com
+
+# Full security scan
+sudo nethawk --fullscan 8.8.8.8
+```
+
+### 🎯 Packet Capture
+
+#### Basic Sniffing
+```bash
+# Capture on interface for 30 seconds
+sudo nethawk --sniff eth0 --timeout 30
+```
+
+#### With BPF Filters
+```bash
+# Capture only TCP traffic
+sudo nethawk --sniff eth0 --filter "tcp" --timeout 20
+
+# Capture HTTP/HTTPS traffic
+sudo nethawk --sniff eth0 --filter "tcp port 80 or tcp port 443" --timeout 30
+
+# Capture DNS queries
+sudo nethawk --sniff eth0 --filter "udp port 53" --timeout 15
+```
+
+#### With Analysis Features
+```bash
+# Enable flow analysis
+sudo nethawk --sniff wlan0 --flows --timeout 30
+
+# Enable anomaly detection
+sudo nethawk --sniff wlan0 --detect --timeout 30
+
+# Enable both
+sudo nethawk --sniff wlan0 --flows --detect --timeout 30
+```
+
+### 🗺️ Traceroute
+
+```bash
+# Trace route to domain
+sudo nethawk --trace google.com
+
+# Trace route to IP
+sudo nethawk --trace 8.8.8.8
+
+# Trace with custom timeout
+sudo nethawk --trace example.com --timeout 5
+```
+
+### 🔍 Full Security Scan
+
+```bash
+# Complete security assessment
+sudo nethawk --fullscan target.com
+
+# This performs:
+# 1. Advanced traceroute
+# 2. Packet capture (20s)
+# 3. Flow analysis
+# 4. Anomaly detection
+# 5. Threat intelligence check
+```
+
+---
+
+## 📸 Screenshots
+
+### 🎨 Banner & Interface
+
+![NetHawk Banner](screenshots/banner.png)
+*NetHawk's stunning ASCII art banner and interface*
+
+### 📡 Packet Capture in Action
+
+![Packet Capture](screenshots/packet-capture.png)
+*Real-time packet sniffing with protocol classification*
+
+### 📊 Flow Analysis Dashboard
+
+![Flow Analysis](screenshots/flow-analysis.png)
+*Comprehensive traffic flow analysis with top talkers and port distribution*
+
+### 🚨 Anomaly Detection
+
+![Anomaly Detection](screenshots/anomaly-detection.png)
+*Real-time anomaly detection identifying suspicious patterns*
+
+### 🗺️ Advanced Traceroute
+
+![Traceroute](screenshots/traceroute.png)
+*Enhanced traceroute with latency metrics and geolocation*
+
+### 🛡️ Threat Intelligence
+
+![Threat Detection](screenshots/threat-detection.png)
+*Threat intelligence alerts for blacklisted IPs*
+
+### 📝 JSON Reports
+
+![Reports](screenshots/reports.png)
+*Detailed JSON reports for forensic analysis*
+
+---
+
+## 🎓 Advanced Usage
+
+### Custom Threat Intelligence
+
+Create and populate your threat blacklist:
+
+```bash
+# Create data directory
+mkdir -p data
+
+# Add malicious IPs to blacklist
+cat > data/threat_blacklist.txt << EOF
+# Malware C2 Servers
+185.220.101.1
+45.142.212.61
+
+# Known Botnet IPs
+103.109.247.10
+EOF
+
+# Run capture with threat detection
+sudo nethawk --sniff eth0 --timeout 30
+```
+
+### BPF Filter Examples
+
+```bash
+# Capture specific host
+sudo nethawk --sniff eth0 --filter "host 192.168.1.1"
+
+# Capture specific port range
+sudo nethawk --sniff eth0 --filter "portrange 8000-9000"
+
+# Capture ICMP only
+sudo nethawk --sniff eth0 --filter "icmp"
+
+# Complex filter
+sudo nethawk --sniff eth0 --filter "tcp and (port 80 or port 443) and host 192.168.1.0/24"
+```
+
+### Analyzing Reports
+
+```bash
+# List all reports
+ls -lh reports/
+
+# View latest report (with jq)
+cat reports/report-*.json | jq .
+
+# Extract specific data
+jq '.flows.top_sources' reports/report-2025-11-29-2219.json
+
+# Count anomalies
+jq '.anomalies | length' reports/report-*.json
+```
+
+---
+
+## 🏗️ Architecture
+
+```
+NetHawk/
+├── nethawk/
+│   ├── core/              # Core functionality modules
+│   │   ├── sniffer.py     # Packet capture engine
+│   │   ├── tracer.py      # Advanced traceroute
+│   │   ├── flow_analyzer.py    # Traffic flow analysis
+│   │   ├── anomaly_detector.py # Anomaly detection
+│   │   ├── threat_intel.py     # Threat intelligence
+│   │   └── logger.py      # Report generation
+│   ├── ui/                # User interface
+│   │   ├── banner.py      # ASCII art banner
+│   │   └── console.py     # Colored output
+│   ├── utils/             # Utility modules
+│   │   ├── config.py      # Configuration
+│   │   └── geoip.py       # GeoIP lookup
+│   └── cli.py             # Command-line interface
+├── data/                  # Threat intelligence data
+├── reports/               # Generated reports
+├── main.py               # Alternative entry point
+├── setup.py              # Package setup
+└── install.sh            # Installation script
+```
+
+---
+
+## 🔧 Configuration
+
+### Default Settings
+
+Edit `nethawk/utils/config.py` to customize:
+
+```python
+class Config:
+    sniff_timeout = 30              # Default capture timeout
+    default_interface = "eth0"      # Default network interface
+    report_dir = "reports"          # Report output directory
+    max_hops = 30                   # Traceroute max hops
+    traceroute_timeout = 2          # Traceroute timeout per hop
+```
+
+---
+
+## 📊 Output & Reports
+
+NetHawk automatically generates detailed JSON reports for every operation:
+
+### Report Structure
+
+```json
+{
+  "metadata": {
+    "timestamp": "2025-11-29T22:19:00",
+    "tool": "NetHawk Security Toolkit",
+    "version": "1.0"
+  },
+  "traceroute": [...],
+  "flows": {
+    "total_packets": 112,
+    "top_sources": {...},
+    "top_destinations": {...},
+    "protocols": {...}
+  },
+  "anomalies": [...],
+  "threats": [...]
+}
+```
+
+Reports are saved to `reports/report-YYYY-MM-DD-HHMM.json`
+
+---
+
+## 🛠️ Troubleshooting
+
+### Permission Denied
+
+```bash
+# Ensure you're using sudo for packet capture
+sudo nethawk --sniff eth0
+
+# Or grant capabilities to Python
+sudo setcap cap_net_raw=eip $(which python3)
+```
+
+### Command Not Found
+
+```bash
+# Use full path with sudo
+sudo /home/user/.local/bin/nethawk --sniff eth0
+
+# Or create system symlink
+sudo ln -s ~/.local/bin/nethawk /usr/local/bin/nethawk
+```
+
+### No Packets Captured
+
+```bash
+# Check interface name
+ip link show
+
+# Use a BPF filter to capture specific traffic
+sudo nethawk --sniff wlan0 --filter "tcp" --timeout 30
+
+# Verify interface is up
+sudo ip link set wlan0 up
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request
+
+### Development Setup
+
+```bash
+# Clone your fork
+git clone https://github.com/yourusername/nethawk.git
+cd nethawk
+
+# Install in development mode
+pip3 install -e .
+
+# Run tests (if available)
+python3 -m pytest
+```
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- **Scapy** - The powerful packet manipulation library
+- **Python Community** - For excellent networking libraries
+- **Security Researchers** - For threat intelligence and best practices
+- **Open Source Community** - For inspiration and support
+
+---
+
+## 📞 Contact & Support
+
+<div align="center">
+
+**Created by: Akshay K (Dev-axay18)**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Dev--axay18-black?style=for-the-badge&logo=github)](https://github.com/Dev-axay18)
+[![Twitter](https://img.shields.io/badge/Twitter-@devaxay18-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/devaxay18)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Akshay%20K-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/akshay-k)
+
+### ⭐ Star this repository if you find it useful!
+
+</div>
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] **GUI Interface** - Web-based dashboard for real-time monitoring
+- [ ] **Machine Learning** - Advanced anomaly detection with ML models
+- [ ] **Cloud Integration** - Integration with cloud threat intelligence feeds
+- [ ] **PCAP Export** - Export captures in PCAP format
+- [ ] **Plugin System** - Extensible plugin architecture
+- [ ] **Multi-threading** - Parallel packet processing
+- [ ] **Database Support** - Store results in SQLite/PostgreSQL
+- [ ] **API Server** - RESTful API for remote operations
+
+---
+
+<div align="center">
+
+### 🦅 NetHawk - *Hunt. Analyze. Secure.*
+
+**Made with ❤️ for the Security Community**
+
+</div>
