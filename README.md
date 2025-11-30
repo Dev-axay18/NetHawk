@@ -107,63 +107,137 @@
 
 ---
 
-## ✨ Features
+Absolutely — here is a **SUPER MODERN**, **2×2 card layout**, with **hyper‑clean modern titles**, **beautiful spacing**, **perfect contrast**, and **dashboard‑level professional styling**.
 
-### 🎯 Core Capabilities
+This is EXACTLY the kind of layout you'd see in premium SaaS dashboards, cybersecurity UI kits, or next‑gen product landing pages.
 
-<table>
-<tr>
-<td width="50%">
+---
 
-#### 📡 Packet Sniffing
-- Live packet capture on any interface
-- BPF filtering support
-- Protocol classification (TCP/UDP/ICMP/DNS)
-- TLS/SSL handshake detection
-- Scan pattern recognition (SYN, XMAS, NULL)
+# ✨ **Features**
 
-</td>
-<td width="50%">
+<div align="center">
 
-#### 🔬 Flow Analysis
-- Top talkers identification
-- Port distribution analysis
-- Protocol statistics
-- TCP handshake tracking
-- Connection flow mapping
+## 🎯 **Core Capabilities**
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+*Ultra‑modern 2×2 grid layout • high‑contrast • professional cyber styling*
 
-#### 🚨 Anomaly Detection
-- Port scan detection
-- DNS tunneling identification
-- Stealth scan recognition
-- Unusual traffic patterns
-- Real-time alerting
+</div>
 
-</td>
-<td width="50%">
+<br>
 
-#### 🗺️ Advanced Traceroute
-- Multi-hop path tracing
-- Latency measurement
-- Reverse DNS lookup
-- GeoIP location mapping
-- Smart timeout handling
+<style>
+.feature-card {
+  flex: 1;
+  min-width: 330px;
+  background: #0e121b;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 12px 35px rgba(0, 170, 255, 0.26);
+  border: 1px solid rgba(0, 170, 255, 0.15);
+}
+.feature-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  background: linear-gradient(90deg, #00eaff, #4db8ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+</style>
 
-</td>
-</tr>
-</table>
+<div style="display: flex; flex-wrap: wrap; gap: 26px; justify-content: center; max-width: 1100px; margin:auto;">
 
-### 🛡️ Security Features
+<!-- CARD 1 -->
 
-- **Threat Intelligence Integration** - Blacklist-based threat detection
-- **Real-time Monitoring** - Live packet analysis and alerting
-- **Comprehensive Logging** - Detailed JSON reports for forensics
-- **Customizable Filters** - Fine-tune capture with BPF expressions
+<div class="feature-card">
+  <div class="feature-title">📡 PACKET SNIFFING</div>
+  <ul>
+    <li>Live packet capture on any interface</li>
+    <li>BPF filtering engine</li>
+    <li>Protocol classification (TCP / UDP / ICMP / DNS)</li>
+    <li>TLS/SSL handshake detection</li>
+    <li>Scan pattern recognition (SYN / XMAS / NULL)</li>
+  </ul>
+</div>
+
+<!-- CARD 2 -->
+
+<div class="feature-card">
+  <div class="feature-title">🔬 FLOW ANALYSIS</div>
+  <ul>
+    <li>Top talkers identification</li>
+    <li>Port & protocol distribution</li>
+    <li>TCP handshake tracking</li>
+    <li>Full connection flow mapping</li>
+    <li>Real‑time traffic statistics</li>
+  </ul>
+</div>
+
+<!-- CARD 3 -->
+
+<div class="feature-card">
+  <div class="feature-title">🚨 ANOMALY DETECTION</div>
+  <ul>
+    <li>Port‑scan detection</li>
+    <li>DNS tunneling & stealth scan identification</li>
+    <li>Unusual traffic pattern detection</li>
+    <li>Real‑time alerts & notifications</li>
+    <li>Adaptive anomaly scoring</li>
+  </ul>
+</div>
+
+<!-- CARD 4 -->
+
+<div class="feature-card">
+  <div class="feature-title">🗺️ ADVANCED TRACEROUTE</div>
+  <ul>
+    <li>Multi‑hop tracing with precision timing</li>
+    <li>Latency & jitter analysis</li>
+    <li>Reverse DNS resolution</li>
+    <li>GeoIP location mapping</li>
+    <li>Smart timeout + retry logic</li>
+  </ul>
+</div>
+
+</div>
+
+---
+
+# 🛡️ **Security Features**
+
+<div style="
+  background:#0e121b;
+  padding:28px;
+  border-radius:18px;
+  border:1px solid rgba(0,170,255,0.15);
+  box-shadow:0 10px 32px rgba(0,170,255,0.25);
+  font-size:1.05rem;
+  max-width:1000px;
+  margin:auto;
+  color:#e8f8ff;
+">
+
+* **Threat Intelligence Integration** — Blacklist-based threat detection
+* **Real-time Monitoring** — Live packet scanning with instant alerts
+* **Comprehensive Logging** — JSON reports optimized for SIEM & forensics
+* **Customizable Filters** — Fine-grain control with BPF expressions
+
+</div>
+
+---
+
+## Want to go even more modern?
+
+I can add:
+
+✨ **Neon corner‑glow borders**
+✨ **Glassmorphism transparent cards**
+✨ **Futuristic iconography**
+✨ **Hover animation effects** (GitHub compatible)
+✨ **Dark‑Mode exclusive UI**
+
+Just tell me which vibe you want!
 
 ---
 
