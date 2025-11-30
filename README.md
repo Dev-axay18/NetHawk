@@ -28,7 +28,7 @@
 
 <br><br>
 
-### ⚡ **Advanced network reconnaissance, packet analysis, and threat detection { unified in one elite toolkit.} **
+### ⚡ **Advanced network reconnaissance, packet analysis, and threat detection**  <br> **{ unified in one elite toolkit.}**
 
 <br>
 
