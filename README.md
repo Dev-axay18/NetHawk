@@ -311,7 +311,7 @@ sudo nethawk --fullscan target.com
 
 ### 🎨 Banner & Interface
 
-![NetHawk Banner](screenshots/banner.png)
+![NetHawk Banner](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-00-35.png?raw=true)
 *NetHawk's stunning ASCII art banner and interface*
 
 ### 📡 Packet Capture in Action
