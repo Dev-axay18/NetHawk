@@ -311,37 +311,37 @@ sudo nethawk --fullscan target.com
 
 ### 🎨 Banner & Interface
 
-![NetHawk Banner](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-00-35.png?raw=true)
+![NetHawk Banner](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-00-35.png?raw=true) <br>
 *NetHawk's stunning ASCII art banner and interface*
 
 ### 📡 Packet Capture in Action
 
-![Packet Capture](screenshots/packet-capture.png)
+![Packet Capture](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-04-21.png?raw=true)
 *Real-time packet sniffing with protocol classification*
 
 ### 📊 Flow Analysis Dashboard
 
-![Flow Analysis](screenshots/flow-analysis.png)
+![Flow Analysis](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-04-57.png?raw=true)
 *Comprehensive traffic flow analysis with top talkers and port distribution*
 
 ### 🚨 Anomaly Detection
 
-![Anomaly Detection](screenshots/anomaly-detection.png)
+![Anomaly Detection](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-13-21.png?raw=true)
 *Real-time anomaly detection identifying suspicious patterns*
 
 ### 🗺️ Advanced Traceroute
 
-![Traceroute](screenshots/traceroute.png)
+![Traceroute](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-15-26.png?raw=true)
 *Enhanced traceroute with latency metrics and geolocation*
 
 ### 🛡️ Threat Intelligence
 
-![Threat Detection](screenshots/threat-detection.png)
+![Threat Detection](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-17-22.png?raw=true)
 *Threat intelligence alerts for blacklisted IPs*
 
 ### 📝 JSON Reports
 
-![Reports](screenshots/reports.png)
+![Reports](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2015-51-20.png?raw=true)
 *Detailed JSON reports for forensic analysis*
 
 ---
@@ -550,7 +550,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Created by: Akshay K (Dev-axay18)**
+**Created by: Akshay Kale (Dev-axay18)**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Dev--axay18-black?style=for-the-badge&logo=github)](https://github.com/Dev-axay18)
 
