@@ -546,16 +546,6 @@ python3 -m pytest
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-## 🙏 Acknowledgments
-
-- **Scapy** - The powerful packet manipulation library
-- **Python Community** - For excellent networking libraries
-- **Security Researchers** - For threat intelligence and best practices
-- **Open Source Community** - For inspiration and support
-
----
-
 ## 📞 Contact & Support
 
 <div align="center">
@@ -563,8 +553,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Created by: Akshay K (Dev-axay18)**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Dev--axay18-black?style=for-the-badge&logo=github)](https://github.com/Dev-axay18)
-[![Twitter](https://img.shields.io/badge/Twitter-@devaxay18-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/devaxay18)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Akshay%20K-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/akshay-k)
 
 ### ⭐ Star this repository if you find it useful!
 
