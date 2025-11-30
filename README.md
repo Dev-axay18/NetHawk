@@ -302,32 +302,32 @@ sudo nethawk --fullscan target.com
 
 ### 📡 Packet Capture in Action
 
-![Packet Capture](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-04-21.png?raw=true)
+![Packet Capture](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-04-21.png?raw=true) <br>
 *Real-time packet sniffing with protocol classification*
 
 ### 📊 Flow Analysis Dashboard
 
-![Flow Analysis](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-04-57.png?raw=true)
+![Flow Analysis](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-04-57.png?raw=true) <br>
 *Comprehensive traffic flow analysis with top talkers and port distribution*
 
 ### 🚨 Anomaly Detection
 
-![Anomaly Detection](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-13-21.png?raw=true)
+![Anomaly Detection](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-13-21.png?raw=true) <br>
 *Real-time anomaly detection identifying suspicious patterns*
 
 ### 🗺️ Advanced Traceroute
 
-![Traceroute](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-15-26.png?raw=true)
+![Traceroute](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-15-26.png?raw=true) <br>
 *Enhanced traceroute with latency metrics and geolocation*
 
 ### 🛡️ Threat Intelligence
 
-![Threat Detection](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-17-22.png?raw=true)
+![Threat Detection](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2010-17-22.png?raw=true) <br>
 *Threat intelligence alerts for blacklisted IPs*
 
 ### 📝 JSON Reports
 
-![Reports](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2015-51-20.png?raw=true)
+![Reports](https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Screenshot%20From%202025-11-30%2015-51-20.png?raw=true)<br>
 *Detailed JSON reports for forensic analysis*
 
 ---
