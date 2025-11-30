@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://dummyimage.com/1450x300/0a0f1f/00eaff&text=NetHawk+Security+Toolkit" width="100%" style="border-radius:14px; margin-bottom:25px;">
+<img src="https://github.com/Dev-axay18/NetHawk/blob/main/screenshots/Untitled%20design.png?raw=true" width="100%" style="border-radius:14px; margin-bottom:25px;">
 
 # 🦅 **NetHawk Security Toolkit**
 
