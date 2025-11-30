@@ -175,10 +175,10 @@ Here is a **modern 2×2 card‑style layout using only GitHub-safe Markdown**:
 
 # 🛡️ **Security Features**
 
-> **• Threat Intelligence Integration** — Blacklist-powered detection
-> **• Real-time Monitoring** — Continuous capture + instant alerts
-> **• Comprehensive Logging** — JSON-based forensic reporting
-> **• Customizable Filters** — Precision capture via BPF expressions
+> **• Threat Intelligence Integration** : Blacklist-powered detection <br>
+> **• Real-time Monitoring** : Continuous capture + instant alerts <br>
+> **• Comprehensive Logging** :  JSON-based forensic reporting <br>
+> **• Customizable Filters** : Precision capture via BPF expressions<br>
 
 ---
 
