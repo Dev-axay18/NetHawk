@@ -113,131 +113,72 @@ This is EXACTLY the kind of layout you'd see in premium SaaS dashboards, cyberse
 
 ---
 
-# ✨ **Features**
+Got you.
+**NO HTML. NO CSS. ALL PURE MARKDOWN.**
+This will **100% work on GitHub** and still look **super modern, clean, grid‑like, and jaw‑dropping**.
 
-<div align="center">
+Here is a **modern 2×2 card‑style layout using only GitHub-safe Markdown**:
+
+---
+
+# ✨ **Features**
 
 ## 🎯 **Core Capabilities**
 
-*Ultra‑modern 2×2 grid layout • high‑contrast • professional cyber styling*
+> ### **📡 PACKET SNIFFING**
+>
+> **────────────────────────────────────**
+>
+> * Live packet capture on any interface
+> * BPF filtering support
+> * TCP / UDP / ICMP / DNS classification
+> * TLS/SSL handshake detection
+> * SYN / XMAS / NULL scan signature detection
 
-</div>
+---
 
-<br>
+> ### **🔬 FLOW ANALYSIS**
+>
+> **────────────────────────────────────**
+>
+> * Top talkers identification
+> * Port & protocol distribution
+> * Protocol-level statistics
+> * TCP handshake lifecycle tracking
+> * Full connection flow mapping
 
-<style>
-.feature-card {
-  flex: 1;
-  min-width: 330px;
-  background: #0e121b;
-  border-radius: 18px;
-  padding: 28px;
-  box-shadow: 0 12px 35px rgba(0, 170, 255, 0.26);
-  border: 1px solid rgba(0, 170, 255, 0.15);
-}
-.feature-title {
-  font-size: 1.35rem;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  background: linear-gradient(90deg, #00eaff, #4db8ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 10px;
-}
-</style>
+---
 
-<div style="display: flex; flex-wrap: wrap; gap: 26px; justify-content: center; max-width: 1100px; margin:auto;">
+> ### **🚨 ANOMALY DETECTION**
+>
+> **────────────────────────────────────**
+>
+> * Port scan detection
+> * DNS tunneling identification
+> * Stealth scan detection
+> * Behavioral traffic pattern analysis
+> * Real-time alerting engine
 
-<!-- CARD 1 -->
+---
 
-<div class="feature-card">
-  <div class="feature-title">📡 PACKET SNIFFING</div>
-  <ul>
-    <li>Live packet capture on any interface</li>
-    <li>BPF filtering engine</li>
-    <li>Protocol classification (TCP / UDP / ICMP / DNS)</li>
-    <li>TLS/SSL handshake detection</li>
-    <li>Scan pattern recognition (SYN / XMAS / NULL)</li>
-  </ul>
-</div>
-
-<!-- CARD 2 -->
-
-<div class="feature-card">
-  <div class="feature-title">🔬 FLOW ANALYSIS</div>
-  <ul>
-    <li>Top talkers identification</li>
-    <li>Port & protocol distribution</li>
-    <li>TCP handshake tracking</li>
-    <li>Full connection flow mapping</li>
-    <li>Real‑time traffic statistics</li>
-  </ul>
-</div>
-
-<!-- CARD 3 -->
-
-<div class="feature-card">
-  <div class="feature-title">🚨 ANOMALY DETECTION</div>
-  <ul>
-    <li>Port‑scan detection</li>
-    <li>DNS tunneling & stealth scan identification</li>
-    <li>Unusual traffic pattern detection</li>
-    <li>Real‑time alerts & notifications</li>
-    <li>Adaptive anomaly scoring</li>
-  </ul>
-</div>
-
-<!-- CARD 4 -->
-
-<div class="feature-card">
-  <div class="feature-title">🗺️ ADVANCED TRACEROUTE</div>
-  <ul>
-    <li>Multi‑hop tracing with precision timing</li>
-    <li>Latency & jitter analysis</li>
-    <li>Reverse DNS resolution</li>
-    <li>GeoIP location mapping</li>
-    <li>Smart timeout + retry logic</li>
-  </ul>
-</div>
-
-</div>
+> ### **🗺️ ADVANCED TRACEROUTE**
+>
+> **────────────────────────────────────**
+>
+> * Multi-hop path tracing
+> * Latency & jitter metrics
+> * Reverse DNS lookup
+> * GeoIP hop mapping
+> * Smart timeout & retry handling
 
 ---
 
 # 🛡️ **Security Features**
 
-<div style="
-  background:#0e121b;
-  padding:28px;
-  border-radius:18px;
-  border:1px solid rgba(0,170,255,0.15);
-  box-shadow:0 10px 32px rgba(0,170,255,0.25);
-  font-size:1.05rem;
-  max-width:1000px;
-  margin:auto;
-  color:#e8f8ff;
-">
-
-* **Threat Intelligence Integration** — Blacklist-based threat detection
-* **Real-time Monitoring** — Live packet scanning with instant alerts
-* **Comprehensive Logging** — JSON reports optimized for SIEM & forensics
-* **Customizable Filters** — Fine-grain control with BPF expressions
-
-</div>
-
----
-
-## Want to go even more modern?
-
-I can add:
-
-✨ **Neon corner‑glow borders**
-✨ **Glassmorphism transparent cards**
-✨ **Futuristic iconography**
-✨ **Hover animation effects** (GitHub compatible)
-✨ **Dark‑Mode exclusive UI**
-
-Just tell me which vibe you want!
+> **• Threat Intelligence Integration** — Blacklist-powered detection
+> **• Real-time Monitoring** — Continuous capture + instant alerts
+> **• Comprehensive Logging** — JSON-based forensic reporting
+> **• Customizable Filters** — Precision capture via BPF expressions
 
 ---
 
