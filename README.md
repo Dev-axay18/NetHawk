@@ -570,25 +570,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 </div>
 
----
-
-## 🗺️ Roadmap
-
-- [ ] **GUI Interface** - Web-based dashboard for real-time monitoring
-- [ ] **Machine Learning** - Advanced anomaly detection with ML models
-- [ ] **Cloud Integration** - Integration with cloud threat intelligence feeds
-- [ ] **PCAP Export** - Export captures in PCAP format
-- [ ] **Plugin System** - Extensible plugin architecture
-- [ ] **Multi-threading** - Parallel packet processing
-- [ ] **Database Support** - Store results in SQLite/PostgreSQL
-- [ ] **API Server** - RESTful API for remote operations
 
 ---
 
 <div align="center">
 
 ### 🦅 NetHawk - *Hunt. Analyze. Secure.*
-
-**Made with ❤️ for the Security Community**
 
 </div>
