@@ -1,21 +1,46 @@
+Got it — here is **ONLY the section you provided**, but redesigned into a **god-level, modern, jaw-dropping Markdown layout**, with a banner placed at the top.
+
+---
+
 <div align="center">
 
-# 🦅 NetHawk Security Toolkit
+<img src="https://dummyimage.com/1450x300/0a0f1f/00eaff&text=NetHawk+Security+Toolkit" width="100%" style="border-radius:14px; margin-bottom:25px;">
+
+# 🦅 **NetHawk Security Toolkit**
 
 ### *Next-Generation Packet & Path Intelligence Platform*
 
-[![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Linux-lightgrey.svg)](https://www.kali.org/)
-[![Scapy](https://img.shields.io/badge/powered%20by-Scapy-orange.svg)](https://scapy.net/)
+<br>
 
-**Advanced network reconnaissance, packet analysis, and threat detection in a single powerful toolkit.**
+<a href="https://www.python.org/downloads/">
+<img src="https://img.shields.io/badge/Python-3.7%2B-1e90ff?style=for-the-badge&logo=python&logoColor=yellow">
+</a>
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Screenshots](#-screenshots) • [Documentation](#-documentation)
+<a href="LICENSE">
+<img src="https://img.shields.io/badge/License-MIT-32cd32?style=for-the-badge&logo=open-source-initiative&logoColor=white">
+</a>
+
+<a>
+<img src="https://img.shields.io/badge/Platform-Linux-808080?style=for-the-badge&logo=linux&logoColor=white">
+</a>
+
+<a href="https://scapy.net/">
+<img src="https://img.shields.io/badge/Powered%20By-Scapy-fb8c00?style=for-the-badge&logo=python&logoColor=white">
+</a>
+
+<br><br>
+
+### ⚡ **Advanced network reconnaissance, packet analysis, and threat detection — unified in one elite toolkit.**
+
+<br>
+
+[🚀 **Features**](#-features) • [🛠️ **Installation**](#-installation) • [🧭 **Usage**](#-usage) • [🖼️ **Screenshots**](#-screenshots) • [📚 **Documentation**](#-documentation)
 
 ---
 
 </div>
+
+---
 
 ## 🎯 Overview
 
